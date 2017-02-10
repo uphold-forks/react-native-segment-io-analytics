@@ -1,4 +1,29 @@
 .idea/
 
 android/build
-RNSegmentIOAnalytics.xcodeproj/xcuserdata
+
+# Carthage
+Carthage/Checkouts/Build
+Carthage/Checkouts/analytics-ios/Carthage
+Carthage/Checkouts/analytics-ios/Example
+Carthage/Checkouts/analytics-ios/LICENSE
+Carthage/Checkouts/analytics-ios/Makefile
+Carthage/Checkouts/analytics-ios/*.*
+
+# Xcode
+!default.mode1v3
+!default.mode2v3
+!default.pbxuser
+!default.perspectivev3
+*.hmap
+*.ipa
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+*.xccheckout
+*.xcuserstate
+build/
+project.xcworkspace
+xcuserdata
